@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="TestChrome(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="nodeURL" value="http://localhost:4444/wd/hub"/>
+    <classes>
+      <class name="gridDemo.HandlingSeleniumGrid">
+        <methods>
+          <include name="demoGrid" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- gridDemo.HandlingSeleniumGrid -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
